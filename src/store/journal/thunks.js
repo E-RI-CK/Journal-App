@@ -67,7 +67,7 @@ export const startDeletingNote = () => {
     return async (dispatch, getState) => {
         const { uid } = getState().auth;
         const { active: note } = getState().journal;
-        const docRef = doc(FireBaseDB, `${uid}/journal/note/${note.id}`);
+        const docRef = doc(FireBaseDB, `${uid}/journal/notes/${note.id}`);
         await deleteDoc(docRef);
         dispatch(deleteNoteById(note.id));
     }
