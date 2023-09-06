@@ -3,11 +3,11 @@ Journal App was created to save or schedule exams, appointments or different act
 
 Development Tools used in this APP:
 
--React
--JavaScript
--Redux-Toolkit
--Material UI
--Firebase
+-React  
+-JavaScript  
+-Redux-Toolkit  
+-Material UI  
+-Firebase  
 
 
 
