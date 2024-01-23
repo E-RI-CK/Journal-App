@@ -13,4 +13,4 @@ Development Tools used in this APP:
 
 
 Link to Deployment.
-https://e-ri-ck.github.io/Journal-App/
+https://journal-app-system.netlify.app/
